@@ -4,6 +4,7 @@ banditLevel = 0
 echo "What level do you want to start on? (Default = 0) "
 read banditLevel
 
+#Change Level max here if new levels are added
 for ((level = banditLevel; Level <= 34; Level++));do
 	
 	#start connection to bandit level
